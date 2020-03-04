@@ -42,7 +42,7 @@
 			<?php the_content(); ?>
 		</div>
 
-		<?php if ( is_post() ) : ?>
+		<?php if ( is_single() ) : ?>
 			<div class="post-meta">
 				<span class="author"><?php the_author(); ?></span> - <span class="categories"><?php the_category( ', ' ); ?></span> - <span class="tags"><?php the_tags( '', ',', '' ); ?></span>
 			</div>
